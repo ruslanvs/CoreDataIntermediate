@@ -8,27 +8,12 @@
 
 import UIKit
 
-class CustomNavigationController: UINavigationController {
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent
-    }
-}
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        window = UIWindow()
-        window?.makeKeyAndVisible()
-        
-        let companiesController = ViewController()
-//        dummyViewController.view.backgroundColor = .blue
-        let navController = CustomNavigationController(rootViewController: companiesController)
-        window?.rootViewController = navController
         
         return true
     }
