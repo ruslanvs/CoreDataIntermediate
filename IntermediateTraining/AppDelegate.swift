@@ -1,12 +1,12 @@
-//
 //  AppDelegate.swift
-//  IntermediateTraining
-//
-//  Created by Brian Voong on 10/21/17.
-//  Copyright © 2017 Lets Build That App. All rights reserved.
-//
 
 import UIKit
+
+class LightNavigationController: UINavigationController {
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+}
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,8 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow()
         window?.makeKeyAndVisible()
         
-        let companiesViewController = ViewController()
-        let navController = UINavigationController(rootViewController: companiesViewController)
+        let companiesVC = ViewController()
+        let navController = LightNavigationController(rootViewController: companiesVC)
         
         window?.rootViewController = navController
         

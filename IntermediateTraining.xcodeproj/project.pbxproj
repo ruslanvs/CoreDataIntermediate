@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		C720C0B31F9BE1B3006195A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C720C0B21F9BE1B3006195A0 /* AppDelegate.swift */; };
 		C720C0B51F9BE1B3006195A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C720C0B41F9BE1B3006195A0 /* ViewController.swift */; };
-		C720C0B81F9BE1B3006195A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C720C0B61F9BE1B3006195A0 /* Main.storyboard */; };
 		C720C0BA1F9BE1B3006195A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C720C0B91F9BE1B3006195A0 /* Assets.xcassets */; };
 		C720C0BD1F9BE1B3006195A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C720C0BB1F9BE1B3006195A0 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		C720C0AF1F9BE1B3006195A0 /* IntermediateTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntermediateTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C720C0B21F9BE1B3006195A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C720C0B41F9BE1B3006195A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C720C0B71F9BE1B3006195A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C720C0B91F9BE1B3006195A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C720C0BC1F9BE1B3006195A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C720C0BE1F9BE1B3006195A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 			children = (
 				C720C0B21F9BE1B3006195A0 /* AppDelegate.swift */,
 				C720C0B41F9BE1B3006195A0 /* ViewController.swift */,
-				C720C0B61F9BE1B3006195A0 /* Main.storyboard */,
 				C720C0B91F9BE1B3006195A0 /* Assets.xcassets */,
 				C720C0BB1F9BE1B3006195A0 /* LaunchScreen.storyboard */,
 				C720C0BE1F9BE1B3006195A0 /* Info.plist */,
@@ -125,7 +122,6 @@
 			files = (
 				C720C0BD1F9BE1B3006195A0 /* LaunchScreen.storyboard in Resources */,
 				C720C0BA1F9BE1B3006195A0 /* Assets.xcassets in Resources */,
-				C720C0B81F9BE1B3006195A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,14 +140,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C720C0B61F9BE1B3006195A0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C720C0B71F9BE1B3006195A0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C720C0BB1F9BE1B3006195A0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -275,7 +263,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TU4944T6UG;
+				DEVELOPMENT_TEAM = 4LCWFZ2JA9;
 				INFOPLIST_FILE = IntermediateTraining/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.letsbuildthatapp.IntermediateTraining;
@@ -290,7 +278,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TU4944T6UG;
+				DEVELOPMENT_TEAM = 4LCWFZ2JA9;
 				INFOPLIST_FILE = IntermediateTraining/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.letsbuildthatapp.IntermediateTraining;
