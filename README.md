@@ -1,1 +1,1 @@
-iOS CoreData review project
+iOS CoreData course by Brian Voong
