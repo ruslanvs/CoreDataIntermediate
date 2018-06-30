@@ -12,8 +12,7 @@ class HomeCell: UITableViewCell {
 
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        let tealColor = UIColor(red: 48/255, green: 164/255, blue: 182/255, alpha: 1)
-        backgroundColor = tealColor
+        backgroundColor = .myTeal
     }
     
     

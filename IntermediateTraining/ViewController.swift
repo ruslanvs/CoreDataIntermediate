@@ -10,7 +10,7 @@ class ViewController: UITableViewController {
         tableView.register(HomeCell.self, forCellReuseIdentifier: "homeCell")
         view.backgroundColor = .white
         navigationItem.title = "Companies"
-        tableView.backgroundColor = UIColor(red: 9/255, green: 45/255, blue: 64/255, alpha: 1)
+        tableView.backgroundColor = .myDeepBlue
 
         tableView.tableFooterView = UIView()
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "plus").withRenderingMode(.alwaysOriginal), style: .plain, target: self, action: #selector(handleAddCompany))
@@ -33,8 +33,7 @@ class ViewController: UITableViewController {
     
     func setNavigationStyle() {
         navigationController?.navigationBar.isTranslucent = false
-        let lightRed = UIColor(red: 247/255, green: 66/255, blue: 82/255, alpha: 1)
-        navigationController?.navigationBar.barTintColor = lightRed
+        navigationController?.navigationBar.barTintColor = .myLightRed
         navigationController?.navigationBar.prefersLargeTitles = true
         navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
         navigationController?.navigationBar.largeTitleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
