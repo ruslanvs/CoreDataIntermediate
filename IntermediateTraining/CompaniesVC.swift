@@ -26,8 +26,7 @@ class CompaniesVC: UITableViewController {
     @objc func handleAddCompany() {
         print("handleAddCompany() fired")
         let createCompanyController = CreateCompanyController()
-//        createCompanyController.view.backgroundColor = .green
-        let navController = UINavigationController(rootViewController: createCompanyController)
+        let navController = LightNavigationController(rootViewController: createCompanyController)
         present(navController, animated: true, completion: nil)
     }
     
