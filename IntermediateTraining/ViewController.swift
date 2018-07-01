@@ -11,7 +11,7 @@ class ViewController: UITableViewController {
         view.backgroundColor = .white
         navigationItem.title = "Companies"
         tableView.backgroundColor = .myDeepBlue
-
+        tableView.separatorColor = .white
         tableView.tableFooterView = UIView()
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "plus").withRenderingMode(.alwaysOriginal), style: .plain, target: self, action: #selector(handleAddCompany))
         setNavigationStyle()
@@ -20,6 +20,12 @@ class ViewController: UITableViewController {
     
     @objc func handleAddCompany() {
         print("handleAddCompany() fired")
+    }
+    
+    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let view = UIView()
+        view.backgroundColor = .myLightBlue
+        return view
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

@@ -13,6 +13,8 @@ class HomeCell: UITableViewCell {
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         backgroundColor = .myTeal
+        textLabel?.text = "Comp"
+        textLabel?.textColor = .white
     }
     
     
